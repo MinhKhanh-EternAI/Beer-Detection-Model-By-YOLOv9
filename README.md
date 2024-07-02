@@ -12,9 +12,9 @@ Heineken Detect - Utilizing technology to improve inspection and detection proce
 
 ## Demo
 - [Model Demo - Image](https://minhkhanh-eternai.github.io/HackHCMC-Detect-Beer/)
-- [Model Demo - Video (Realtime)](https://github.com/dinhgia2106/AIO-3KA_hackhcmc/assets/115169101/555957cb-3707-40a7-a5b2-3225dbee5332)
+- [Model Demo - Video (Realtime)](https://demo.roboflow.com/detect-beer-8c3cm/12?publishable_key=rf_RoiqmRyrawXjoL11CCpF)
 
-  ![image](https://github.com/dinhgia2106/AIO-3KA_hackhcmc/assets/115169101/555957cb-3707-40a7-a5b2-3225dbee5332)
+  ![image](./public/image/qr-code.png)
 
 
 ## Technology Stack
