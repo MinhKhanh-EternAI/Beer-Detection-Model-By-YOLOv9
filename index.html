@@ -67,7 +67,7 @@
                 <div class="col-12-m8" id="fileSelectionContainer">
                     <label class="input__label" for="file">Select File</label>
                     <div class="flex">
-                        <input class="input input--left flex-1" type="text" id="fileName" disabled />
+                        <input class="input input--left" type="text" id="fileName" disabled />
                         <button id="fileMock" class="bttn right active">Browse</button>
                     </div>
                     <input style="display: none;" type="file" id="file" />
@@ -111,30 +111,30 @@
                         <button id="jsonButton" data-value="json" class="bttn right fill">JSON</button>
                     </div>
                 </div>
-                <div class="col-12 content__grid" id="imageOptions">
-                    <div class="col-12-s6-m4" id="labels">
+                <div class="col-12-m9 content__grid content__grid-custom" id="imageOptions">
+                    <div class="col-6-m5" id="labels">
                         <label class="input__label">Labels</label>
-                        <div>
-                            <button class="bttn left active">Off</button>
-                            <button data-value="on" class="bttn right">On</button>
+                        <div class="d-flex">
+                            <button class="bttn flex-fill left">Off</button>
+                            <button data-value="on" class="bttn flex-fill right active">On</button>
                         </div>
                     </div>
-                    <div class="col-12-s6-m4" id="stroke">
+                    <div class="col-6-m7" id="stroke">
                         <label class="input__label">Stroke Width</label>
-                        <div>
-                            <button data-value="1" class="bttn left active">1px</button>
-                            <button data-value="2" class="bttn">2px</button>
-                            <button data-value="5" class="bttn">5px</button>
-                            <button data-value="10" class="bttn right">10px</button>
+                        <div class="d-flex">
+                            <button data-value="1" class="bttn flex-fill left">1px</button>
+                            <button data-value="2" class="bttn flex-fill active">2px</button>
+                            <button data-value="5" class="bttn flex-fill">5px</button>
+                            <button data-value="10" class="bttn flex-fill right">10px</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <button type="submit" value="Run Inference" class="bttn__primary">Run Inference</button>
+                <div class="col-12 d-flex">
+                    <button type="submit" value="Run Inference" class="bttn__primary flex-fill">Run Inference</button>
                 </div>
             </div>
-
         </div>
+
         <div class="content container d-flex justify-content-center">
             <div class="" style="min-width: 60%;">
                 <div class="result col-12" id="resultContainer">
